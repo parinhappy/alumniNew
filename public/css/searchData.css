@@ -1,0 +1,100 @@
+
+@font-face {
+  font-family: Sriracha; /* Thai */
+  src: url(../front/Sriracha-Regular.ttf);
+}
+
+@font-face {
+  font-family: HinaMincho; /* English */
+  src: url(../front/HinaMincho-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  /* background-color: #ed64a6; */
+  height: 60px;
+}
+.list-menu{
+  color: white;
+  font-family: Sriracha;
+  font-size: 16px;
+}
+.list-menu:hover {
+  color: rgb(196, 2, 196);
+  transition: 0.2s;
+}
+.fas:hover {
+  color: rgb(196, 2, 196);
+  transition: 0.2s;
+}
+
+.fas{
+  color: white;
+  font-size: 25px;
+}
+.header .logo {
+  width: 100px;
+}
+
+.article{
+  font-family: Sriracha;
+  font-size: 16;
+}
+
+.content{
+  margin-top: 2rem;
+}
+
+.faculty {
+  font-size: 18px;
+}
+
+.result{
+  background-color: #F2F2F2F2;
+  width: 70%;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 5px;
+  border-style: groove;
+}
+
+button p:hover{
+  color: #ed64a6;
+  transition: 0.3s;
+}
+
+.displayData{
+  width: 720px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  border: solid 2px #b8b8b8;
+}
+
+.displayData .dataIn{
+  padding: 3rem;
+}
+tr {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+td {
+  color: #686868;
+}
+
+.seData:hover{
+  color: #ed64a6;
+  transition: 0.3s;
+}
+
+footer {
+  /* background-color:  #ed64a6; */
+  color: white;
+  font-family: Sriracha;
+  font-size: 16px;
+  margin-top: 4rem;
+}
